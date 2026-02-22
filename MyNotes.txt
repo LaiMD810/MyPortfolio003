@@ -1,0 +1,31 @@
+XPATH
+#   //tagname[@attribute = 'value']
+
+eg:
+    //input[@type = 'submit']
+
+CSS
+#   tagname[attribute = 'value']         ,   #id,    .class
+eg:
+    input[name='name']
+    input[type ='text']
+
+
+
+element:nth-of-type(n)
+Selects the n-th element of its type among its siblings, regardless of class or ID.
+
+li:nth-of-type(2)
+li means you're targeting list items.
+:nth-of-type(2) means you're selecting the second <li> element among its siblings.
+
+
+This is the syntax for using the preceding-sibling:: axis:
+/parent/current-element/preceding-sibling::target
+Example:
+//p[@class="last_paragraph"]/preceding-sibling::p
+
+This is the syntax for using the following-sibling:: axis:
+/parent/current-element/following-sibling::target
+Example:
+//p[1]/following-sibling::p[@class="last_paragraph"]
