@@ -27,3 +27,13 @@ Project Structure:
 - main.py – Controls the full E2E automation flow
 - README.md – Project documentation
 
+Video Demo:
+Website used: https://rahulshettyacademy.com/loginpagePractise/
+
+For video recording purpose, added line time.sleep(3), to force the process to freeze for 3 seconds
+
+https://github.com/user-attachments/assets/8c316b38-387d-48d5-8fc8-8cb1cff5fdf0
+
+
+
+
